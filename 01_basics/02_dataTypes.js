@@ -1,10 +1,10 @@
 "use strict"; // treat all the JS code as newer version.
 
-// alert(3+3) We are using node.js, not browser.
+alert(3+3) // We are using node.js, not browser.
 
 //Readability 
 
-//console.log(3+3) console.log("Mohit"); // this is  the wrong way to write code they makes errer in our code 
+console.log(3+3) console.log("Mohit"); // this is  the wrong way to write code they makes errer in our code 
 
 // console.log(3+3);
 
