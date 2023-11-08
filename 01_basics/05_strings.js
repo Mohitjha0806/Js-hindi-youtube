@@ -29,3 +29,16 @@ console.log(newString);
 
 const anotherString = gameName.slice(2, 4)
 console.log(anotherString);
+
+const newStringOne = "    Mohit Jha"
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://mohit.com/mohit%20/mohit%20/"
+
+console.log(url.replace('%20', 'Jha'))
+
+console.log(url.includes('mohit'));
+console.log(url.includes('Kumar'));
+
+
