@@ -1,6 +1,6 @@
-// Primitive
+// // Primitive
 
-// 7 types: String, Number, Boolearn, null, undefined, Symbol, BigInt
+// // 7 types: String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
 const scoreValue = 100.3
@@ -43,3 +43,28 @@ console.log("Hy mohit, How are You");
 }
 
 myFun();
+
+
+//*++++++++++++++++++++++++++++++++++++++++++*/
+
+// Stack (pramitive), Heap(Non-primitive);
+
+let myYoutubeName = "mohitjhaYt"
+
+let anothername = myYoutubeName;
+
+anothername = "Summbook"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne;
+
+userTwo.email ="Mohit@github.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
