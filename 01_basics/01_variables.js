@@ -10,8 +10,8 @@ accountEmail = "jha@gmail.com";
 accountPassword = 67891;
 accountCity = "Indore"
 
-console.log(accountEmail)
-console.log(accountPassword)
-console.log(accountCity)
+console.log(accountEmail);
+console.log(accountPassword);
+console.log(accountCity);
 
 console.table([accountId, accountEmail, accountPassword, accountState, accountCity])
