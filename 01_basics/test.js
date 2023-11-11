@@ -4,3 +4,6 @@ let word2 = "craft";
 let fullMeaning = (word1 + word2);
 
 console.log(fullMeaning);
+console.log(fullMeaning);
+console.log(fullMeaning);
+console.log(fullMeaning);
