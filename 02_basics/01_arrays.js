@@ -1,10 +1,10 @@
 /* Array */
 
-let myArr = [10, 12, 13, 14, 15, 16];
-console.log(myArr[3]);
+let myArr11 = [10, 12, 13, 14, 15, 16];
+console.log(myArr11[3]);
 
-let myArr2 = new Array(1, 2, 3, 4)
-console.log(myArr2[1]);
+let myArr10 = new Array(1, 2, 3, 4)
+console.log(myArr10[1]);
 
 let myHeros = ["Chota Bheem", "Spiderman"];
 console.log(myHeros[1]);
@@ -38,3 +38,22 @@ let myArr = [10, 12, 13, 14, 15, 16];
  myArr5.shift();
 
  console.log(myArr5.includes(130));
+
+// slice and splice
+
+ let myArr6 = [1, 2, 3, 4, 5, 6];
+ console.log("A ", myArr6);
+ 
+ const myNewArr = myArr6.slice(1, 3);
+ console.log("B ", myArr6);
+ console.log(myNewArr);
+ 
+
+ const myNewArr2 = myArr6.splice(1, 3);
+ console.log("C", myArr6)
+ console.log(myNewArr2)
+ 
+
+ 
+
+ 
