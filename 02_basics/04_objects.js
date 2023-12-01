@@ -29,7 +29,7 @@ const regularUser = {
 
 console.log(regularUser.profile.fullName.lastName);
 
-object ko combine kese karte hai
+//object ko combine kese karte hai
 
 const obj1 = {3:"c", 4:"d"};
 const obj2 = {1:"a", 2:"b"};
@@ -60,6 +60,9 @@ const users = [
 
 users[1].email;
 
+console.log(users[1]);
+
+
 const facebookk = {};
 
 facebookk.name = "Mohit Jha";
@@ -67,7 +70,11 @@ facebookk.age = 23;
 facebookk.isLoggedin = false;
 
 console.log(facebookk); // Object ke ander kya hai dekh sakte hai;
+
 console.log(Object.keys(facebookk)); // Object ke ander ke keys pare dekh sakte hai;
+
 console.log(Object.values(facebookk)); // Object ke ander ke values pare dekh sakte hai;
+
 console.log(Object.entries(facebookk)); // Object ke ander ke keys values pare ko seprate Array me convert kar sakte hai;
-console.log(facebookk.hasOwnProperty("inLoggedin")); // Object ke ander jo value ya key hume chahiye vo hai ki nhi check kar sakte hai;
+
+console.log(facebookk.hasOwnProperty("isLoggedin")); // Object ke ander jo value ya key hume chahiye vo hai ki nhi check kar sakte hai;
