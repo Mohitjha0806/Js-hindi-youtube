@@ -1,64 +1,64 @@
-// const tinderUser1 = new Object(); // ye singleton Object Hota hai. { } khali object return karta hai kyoki humne isme kuch nhi rakha hai.
+const tinderUser1 = new Object(); // ye singleton Object Hota hai. { } khali object return karta hai kyoki humne isme kuch nhi rakha hai.
 
-// console.log(`ye singleton Object Hota hai. ${tinderUser1} khali object return karta hai kyoki humne isme kuch nhi rakha hai.`);
+console.log(`ye singleton Object Hota hai. ${tinderUser1} khali object return karta hai kyoki humne isme kuch nhi rakha hai.`);
 
-// const tinderUser2 = {} // ye Non singleton Object Hota hai. { } khali object return karta hai kyoki humne isme kuch nhi rakha hai.
+const tinderUser2 = {} // ye Non singleton Object Hota hai. { } khali object return karta hai kyoki humne isme kuch nhi rakha hai.
 
-// console.log(`ye Non singleton Object Hota hai.${tinderUser2} khali object return karta hai kyoki humne isme kuch nhi rakha hai.tinderUser2`);
+console.log(`ye Non singleton Object Hota hai.${tinderUser2} khali object return karta hai kyoki humne isme kuch nhi rakha hai.tinderUser2`);
 
-// const facebook = {};
+const facebook = {};
 
-// facebook.name = "Mohit Jha";
-// facebook.age = 23;
-// facebook.isLoggedin = false;
+facebook.name = "Mohit Jha";
+facebook.age = 23;
+facebook.isLoggedin = false;
 
-// console.log(facebook);
+console.log(facebook);
 
-// object ke ander bhi hum multiple object de sakte hai.
+//object ke ander bhi hum multiple object de sakte hai.
 
-// const regularUser = {
-//   email: "mohit@gmail.com",
-//   profile: {
-//     username: "@mohitjha08",
-//     fullName: {
-//       fisrtName: "Mohit",
-//       lastName: "Jha",
-//     },
-//   },
-// };
+const regularUser = {
+  email: "mohit@gmail.com",
+  profile: {
+    username: "@mohitjha08",
+    fullName: {
+      fisrtName: "Mohit",
+      lastName: "Jha",
+    },
+  },
+};
 
-// console.log(regularUser.profile.fullName.lastName);
+console.log(regularUser.profile.fullName.lastName);
 
-//object ko combine kese karte hai
+object ko combine kese karte hai
 
-// const obj1 = {3:"c", 4:"d"};
-// const obj2 = {1:"a", 2:"b"};
-// const obj4 = {5:"d", 6:"e"};
+const obj1 = {3:"c", 4:"d"};
+const obj2 = {1:"a", 2:"b"};
+const obj4 = {5:"d", 6:"e"};
 
-// // const obj3 ={obj1, obj2}
+const obj3 ={obj1, obj2}
 
-// // const obj3 = Object.assign({}, obj1, obj2, obj4);
+const obj3 = Object.assign({}, obj1, obj2, obj4);
 
-// const obj3 = {...obj1, ...obj2, ...obj4};
+const obj3 = {...obj1, ...obj2, ...obj4};
 
-// console.log(obj3);
+console.log(obj3);
 
-// const users = [
-//   {
-//     id: 1,
-//     email: "mohit@gmail.com",
-//   },
-//   {
-//     id: 2,
-//     email: "Rohit@gmail.com",
-//   },
-//   {
-//     id: 3,
-//     email: "Sohit@gmail.com",
-//   },
-// ];
+const users = [
+  {
+    id: 1,
+    email: "mohit@gmail.com",
+  },
+  {
+    id: 2,
+    email: "Rohit@gmail.com",
+  },
+  {
+    id: 3,
+    email: "Sohit@gmail.com",
+  },
+];
 
-// users[1].email;
+users[1].email;
 
 const facebookk = {};
 
