@@ -66,7 +66,7 @@ console.log(users[1]);
 const facebookk = {};
 
 facebookk.name = "Mohit Jha";
-facebookk.age = 23;
+// facebookk.age = 23;
 facebookk.isLoggedin = false;
 
 console.log(facebookk); // Object ke ander kya hai dekh sakte hai;
@@ -78,3 +78,40 @@ console.log(Object.values(facebookk)); // Object ke ander ke values pare dekh sa
 console.log(Object.entries(facebookk)); // Object ke ander ke keys values pare ko seprate Array me convert kar sakte hai;
 
 console.log(facebookk.hasOwnProperty("isLoggedin")); // Object ke ander jo value ya key hume chahiye vo hai ki nhi check kar sakte hai;
+
+
+// Object Destructuring
+
+const course = {
+  courseName: "Js in Hindi",
+  price:"999",
+  courseInstructor:"Mohit"
+};
+
+course.courseInstructor
+
+const{courseInstructor} = course  //ya yese likh sakte hai 
+console.log(courseInstructor)
+
+const{courseInstructor: instructor} = course // ya yese bhi kar sakte hai 
+console.log(instructor)
+
+//Is type se react me de-stracturing hoti hai 
+
+const navbar = ({company}) =>{  
+
+}
+
+navbar(company = "Tcs");
+
+{
+  "name":"Mohit Jha",
+  "coursename":"Js in Hindi",
+  "Prince":"free"
+};
+
+[
+  {},
+  {},
+  {},
+]
