@@ -49,29 +49,36 @@ function one() {
 }
 one();
 
-
-if(true){
-  const username = "Mohit"
-  if(username == "Mohit"){
-    const website = " youtube"
-    console.log(username + website)
+if (true) {
+  const username = "Mohit";
+  if (username == "Mohit") {
+    const website = " youtube";
+    console.log(username + website);
   }
   console.log(website); // thorw error
 }
 
 // console.log(username); // thorw error
 
-
 ///////////++++++++++++++++++ Interesting ++++++++++++++++++///////////////
 
-console.log(addone(5)); //Ye iss liye declaration ke pehle run ho rha hai kyoki ye direct function hai humne isse kisi variable me store nhi kiya hai 
+console.log(addone(5)); //Ye iss liye declaration ke pehle run ho rha hai kyoki ye direct function hai humne isse kisi variable me store nhi kiya hai
 
-function addone(num){
-  return num + 1
+function addone(num) {
+  return num + 1;
 }
 
-addTwo(10); // Ye iss liye declaration ke pehle run nhi ho raha kyoki function humne variable me store kiya hai 
+addTwo(10); // Ye iss liye declaration ke pehle run nhi ho raha kyoki function humne variable me store kiya hai
 
-const addTwo = function(num){
-  return num + 2
+const addTwo = function (num) {
+  return num + 2;
+};
+
+
+
+
+function mohit(age) {
+  return age + 10;
 }
+
+console.log(mohit(13));
