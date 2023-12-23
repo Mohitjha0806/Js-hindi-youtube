@@ -50,3 +50,11 @@ if (3 == "3") {
   } else {
     console.log("galat bata raha hai");
   }
+
+const temprature = 21
+
+if(temprature == 20){
+console.log("20^C tempreture hai Thand hai bht")
+}else{
+    console.log(`Garmi hai ${temprature} hai`)
+}
