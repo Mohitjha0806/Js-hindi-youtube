@@ -58,3 +58,13 @@ console.log("20^C tempreture hai Thand hai bht")
 }else{
     console.log(`Garmi hai ${temprature} hai`)
 }
+
+
+const score = 92;
+
+if(score >= 100){
+  let power = "fly"
+  console.log(`User power ${power}.`)
+}else{
+console.log("Nothing")
+}
