@@ -59,7 +59,6 @@ console.log("20^C tempreture hai Thand hai bht")
     console.log(`Garmi hai ${temprature} hai`)
 }
 
-
 const score = 92;
 
 if(score >= 100){
@@ -68,3 +67,35 @@ if(score >= 100){
 }else{
 console.log("Nothing")
 }
+
+const balance = 99;
+
+if(balance <= 100) console.log("garib hai "), console.log("Bht jayada GArib") // yese code nhi likhna hai ye good practis nhi hai 
+
+if (balance <= 1000) {
+  console.log("Saving Account Holder");
+} else if (balance <= 1000) {
+  console.log("Salaired Account");
+} else if (balance <= 10000) {
+  console.log("Bussiness Acoount");
+}else{
+  console.log("Ambai")
+}
+
+
+const userLoggedIn = true;
+const debitCard = true;
+
+const loggedInFromGoogle = false;
+const loggedInFromFacebook = true;
+
+if(userLoggedIn && debitCard){
+  console.log("Allow to buy course")
+}
+
+if(loggedInFromGoogle || loggedInFromFacebook){
+  console.log("Allow to buy course")
+}
+
+
+
