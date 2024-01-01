@@ -97,5 +97,12 @@ if(loggedInFromGoogle || loggedInFromFacebook){
   console.log("Allow to buy course")
 }
 
+let a = 10;
+
+if(a == 2){
+  console.log("That was equal")
+}else{
+  console.log("that was not equal")
+}
 
 
