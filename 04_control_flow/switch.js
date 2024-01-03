@@ -1,32 +1,32 @@
-// switch (key) {
-//     case value:
+switch (key) {
+    case value:
 
-//         break;
+        break;
 
-//     default:
-//         break;
-// }
+    default:
+        break;
+}
 
-// const month = 3;
+const month = 3;
 
-// switch (month) {
-//   case 1:
-//     console.log("Jan");
-//     break;
-//   case 2:
-//     console.log("Fab");
-//     break;
-//   case 3:
-//     console.log("March");
-//     break;
-//   case 4:
-//     console.log("Apr");
-//     break;
+switch (month) {
+  case 1:
+    console.log("Jan");
+    break;
+  case 2:
+    console.log("Fab");
+    break;
+  case 3:
+    console.log("March");
+    break;
+  case 4:
+    console.log("Apr");
+    break;
 
-//   default:
-//     console.log("Kuch nhi");
-//     break;
-// }
+  default:
+    console.log("Kuch nhi");
+    break;
+}
 
 const mahina = "June";
 

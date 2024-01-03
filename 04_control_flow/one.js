@@ -59,6 +59,8 @@ console.log("20^C tempreture hai Thand hai bht")
     console.log(`Garmi hai ${temprature} hai`)
 }
 
+// <, >, <=, >=, ==, !=, ===, !== 
+
 const score = 92;
 
 if(score >= 100){
@@ -89,11 +91,23 @@ const debitCard = true;
 const loggedInFromGoogle = false;
 const loggedInFromFacebook = true;
 
-if(userLoggedIn && debitCard){
+if(userLoggedIn && debitCard && 2 == 3){ // && oprator ka mtlb hota hai sab condition true honi chaiye tab kaam hoga 
   console.log("Allow to buy course")
 }
 
-if(loggedInFromGoogle || loggedInFromFacebook){
+if(loggedInFromGoogle || loggedInFromFacebook){ // || oprator ka mtlb hota hai koi ek  condition true honi chaiye tab kaam hoga 
   console.log("Allow to buy course")
 }
 
+Nullish Coalescing Operator (??) : null undefined
+
+?? nullish coalising Operator ka use tab hota hai jab do value hai or dono me se ek null ya Undefined ho toh vo dusri value leta hai null and undefined value ko ignore karta hai 
+
+let val1;
+
+val1 = 5 ?? 10;
+val1 = null ?? 10
+val1 = undefined  ?? 15
+val1 = null ?? 10 ?? 10
+
+console.log(val1)

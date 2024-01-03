@@ -34,7 +34,19 @@ if (userEmailll) {
 
 // empty Array kese chack karte hai dekhte hai 
 
+const emptyObj = {}
+
+if(Object.keys(emptyObj).length === 0){
+  console.log("Object is empty");
+}
+
+// Terniary Operator
+
+// condition ? true : false
+
+const iceTeaPrice = 100;
+
+iceTeaPrice <= 80 ? console.log("Less then 80") :console.log("more then 80")
 
 
-
-
+ 
