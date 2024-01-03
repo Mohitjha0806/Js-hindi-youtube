@@ -14,9 +14,9 @@ if(isLoggedIn){
     console.log("Aa Gya ander consdition true hai ")
 }
 
-let isLoggedIn = false
+let isLoggedInn = false
 
-if(isLoggedIn){
+if(isLoggedInn){
     console.log("Aa Gya ander")
 } else{
     console.log("Nhi hu bhai Logged In condition false ho gyi")
@@ -96,13 +96,4 @@ if(userLoggedIn && debitCard){
 if(loggedInFromGoogle || loggedInFromFacebook){
   console.log("Allow to buy course")
 }
-
-let a = 10;
-
-if(a == 2){
-  console.log("That was equal")
-}else{
-  console.log("that was not equal")
-}
-
 
