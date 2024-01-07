@@ -42,7 +42,7 @@ if(Object.keys(emptyObj).length === 0){
 
 // Terniary Operator
 
-// condition ? true : false
+condition ? true : false
 
 const iceTeaPrice = 100;
 
