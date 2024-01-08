@@ -1,21 +1,21 @@
 
 // While Loop
 
-// let index = 0;
+let index = 0;
 
-// while (index <= 10) {
-//   console.log(`Value of index is ${index}`);
-//   index = index + 2;
-// }
+while (index <= 10) {
+  console.log(`Value of index is ${index}`);
+  index = index + 2;
+}
 
-// let myArray = ["Superman", "Batman", "Hulk"]
+let myArray = ["Superman", "Batman", "Hulk"]
 
-// let arr = 0
+let arr = 0
 
-// while (arr < myArray.length) {
-//     console.log(`Value is ${myArray[arr]}`)
-//     arr = arr + 1
-// }
+while (arr < myArray.length) {
+    console.log(`Value is ${myArray[arr]}`)
+    arr = arr + 1
+}
 
 
 // Do while Loop 
