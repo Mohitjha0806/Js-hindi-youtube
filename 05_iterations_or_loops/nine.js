@@ -2,22 +2,22 @@
 
 // (i) with fuction
 
-// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-// const myTotal = myNums.reduce(function (acc, currVal) {
-//   console.log(`acc : ${acc} and currVal : ${currVal}`);
-//   return acc + currVal;
-// }, 0);
+const myTotal = myNums.reduce(function (acc, currVal) {
+  console.log(`acc : ${acc} and currVal : ${currVal}`);
+  return acc + currVal;
+}, 0);
 
-// console.log(myTotal)
+console.log(myTotal)
 
 // With arrow Function
 
-// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// const myTotal = myNums.reduce((acc, currVal) => acc + currVal, 0);
+const myTotal = myNums.reduce((acc, currVal) => acc + currVal, 0);
 
-// console.log(myTotal);
+console.log(myTotal);
 
 // Example
 

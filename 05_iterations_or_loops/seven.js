@@ -31,6 +31,4 @@ const newAdd = myNums
                     .map((num) => num + 1)
                     .filter((num) => num == 101)
                     
-console.log(newAdd)                
-
-
+console.log(newAdd)
