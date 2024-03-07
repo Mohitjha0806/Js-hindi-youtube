@@ -57,7 +57,52 @@
       </ul>
     </div>
     <script>
-        
+      // document.getElementById('owl').onclick = function(){
+      //   alert('owl clicked')
+      // }
+
+      // attachEvent() on use explorer
+      // jQuery - on
+      
+      // Type, Timestamp, defaultPrevent
+      // Target , to Element, srcElement, currentTarget, 
+      // clientX, clintY, screenX, screenY
+      // Alt-key, Ctrl-key, Shift-key, keyCode
+      
+      //  true capturing {outer to inner jata hai} 
+      //  false bubling {Inner to outer jata hai}
+      
+      document.getElementById("owl").addEventListener(
+        "click",
+        function (e) {
+          console.log(e);
+        },
+        false
+      );
+
+      document.getElementById("images").addEventListener(
+        "click",
+        function (e) {
+          console.log("Clicked in the ul");
+        },
+        true
+      );
+
+      document.getElementById("owl").addEventListener(
+        "click",
+        function (e) {
+          console.log("simply owl Clicked");
+        },
+        true
+      );
+
+      document.getElementById("owl").addEventListener(
+        "click",
+        function (e) {
+          console.log("simply owl Clicked");
+          e.stopPropagation()
+        },
+      );
     </script>
   </body>
 </html>
