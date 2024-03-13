@@ -16,8 +16,8 @@ console.log(user.username);
 console.log(user.getUserDetails());
 console.log(this);
 
-// const promiseOne = new Promise();
-// const date = new Date();
+const promiseOne = new Promise();
+const date = new Date();
 
 function User(username, loginCount, isLoggedIn) {
   this.username = username;
@@ -35,8 +35,8 @@ function User(username, loginCount, isLoggedIn) {
 const userOne = User("Mohit", 12, true);
 const userTwo = new User("chaiAorCode", 11, false);
 console.log(userOne.constructor); 
-  // console.log(userOne);
-  // console.log(userTwo);
+  console.log(userOne);
+  console.log(userTwo);
 
 
 
