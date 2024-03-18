@@ -5,9 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body style="background-color: #313131; color: #fff">
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+    <button id="red">Red</button>
+    <button id="yellow">Yellow</button>
+  </body>
   <script>
-    
+
     function init() {
       let name = "Mozilla";
       function displayName() {
@@ -17,10 +22,56 @@
     }
     init();
 
-    function outer(){
+    function outer() {
       let username = "Mohit";
-
+      console.log(secret);
+      function inner() {
+        let secret = "my123";
+        console.log("INNER : ", username);
+      }
+      function innerTwo() {
+        console.log("INNER TWO : ", username);
+        console.log(secret);
+      }
+      inner();
+      innerTwo();
     }
-    console.log(username);
+    outer();
+    console.log("TOO OUTER : ", username);
+
+    function makeFunc() {
+      const name = "Mozilla";
+      function displayName() {
+        console.log(name);
+      }
+      return displayName;
+    }
+
+    const myFunc = makeFunc();
+    myFunc();
+
+
+
+
+  </script>
+  <script>
+    // document.getElementById("orange").onclick = function(){
+    //   document.body.style.background = `orange`
+    // }
+    // document.getElementById("green").onclick = function(){
+    //   document.body.style.background = `green`
+    // }
+
+    function clickHandler(color) {
+      // document.body.style.background = `${color}`
+      return function () {
+        document.body.style.backgroundColor = `${color}`;
+      };
+    }
+
+    document.getElementById("orange").onclick = clickHandler("orange");
+    document.getElementById("green").onclick = clickHandler("green");
+    document.getElementById("red").onclick = clickHandler("red");
+    document.getElementById("yellow").onclick = clickHandler("yellow");
   </script>
 </html>
