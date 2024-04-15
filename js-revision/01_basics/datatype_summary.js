@@ -22,6 +22,8 @@
 
 // ****************************************************************
 
+// Primitive Example
+
 const score = 100;
 const scoreValue = 100.3;
 
@@ -36,3 +38,22 @@ const anotherId = Symbol('123')
 console.log(id == anotherId); // False // : - Symbol Example
 
 const bigNumber = 897645312231654456n;
+
+
+// Non Primitive Example
+
+const arr = ["Shaktiman", "Doga", "Naagraaz"]
+console.log(arr);
+
+const myObj = {
+    firstName: "Mohit",
+    lastName: "Jha",
+    age: 24
+}
+console.log(myObj);
+
+const fun = function () {
+    console.log("Hello World");
+}
+
+console.log(fun());
