@@ -15,10 +15,10 @@ console.log(myCreateDatee.toLocaleString())
 
 let creatMyDay = new Date("2023-01-14")
 let creatMyDays = new Date("01-14-2024")
+console.log(creatMyDay.toLocaleString());
 console.log(creatMyDays.toLocaleString());
 
 let myTimeStamp = Date.now()
-
 console.log(myTimeStamp);
 console.log(myTimeStamp.getTime());
 console.log(Math.floor(Date.now()/1000));
