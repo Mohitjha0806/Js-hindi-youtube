@@ -1,7 +1,7 @@
 // Date
 
 let myDate = new Date();
-// console.log(myDate);
+console.log(myDate);
 console.log(myDate.toString(), (1) );
 console.log(myDate.toDateString(), (2));
 console.log(myDate.toLocaleString(), (3));
